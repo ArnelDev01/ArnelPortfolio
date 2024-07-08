@@ -184,6 +184,7 @@ jQuery.fn.timelinr = function (options) {
         } else {
           if (!$(settings.issuesDiv).is(":animated")) {
             // bugixed from 0.9.52: now the dates gets centered when there's too much dates.
+
             $(settings.datesDiv + " li")
               .eq(currentIndex + 1)
               .find("a")
