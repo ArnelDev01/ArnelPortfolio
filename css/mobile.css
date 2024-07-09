@@ -1,0 +1,106 @@
+/* this is for small mobile  */
+@media only screen and (max-width: 718px) {
+  .social a {
+    display: none;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container .hero {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .animated-button {
+    display: none;
+  }
+  hr {
+    margin-top: 30%;
+  }
+  #skills {
+    margin-top: 40%;
+  }
+  #works {
+    display: none;
+  }
+  #projects {
+    margin-top: 250vh;
+  }
+  #contact .inside-contact {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .contact-text {
+    display: none;
+  }
+}
+
+/* for big mobile display */
+
+@media only screen and (max-width: 850px) {
+  hr {
+    display: none;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container .hero {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .animated-button {
+    display: none;
+  }
+  hr {
+    margin-top: 30%;
+  }
+  #skills {
+    margin-top: 20%;
+  }
+  #works {
+    margin-right: 20%;
+  }
+  #projects {
+    margin-top: 20vh;
+  }
+  #contact .inside-contact {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 553px) {
+  #projects {
+    margin-top: 220vh;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .picture img {
+    max-width: 100%;
+  }
+  #about {
+    margin-top: 60vh;
+  }
+  #skills {
+    margin-top: 150vh;
+  }
+  #projects {
+    margin-top: 390vh;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .picture img {
+    max-width: 100%;
+  }
+  #about {
+    margin-top: 20vh;
+  }
+  #skills {
+    margin-top: 50vh;
+  }
+  #projects {
+    margin-top: 260vh;
+  }
+}

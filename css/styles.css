@@ -206,7 +206,7 @@ header {
   width: 150px;
   box-shadow: greenyellow 0 5px 5px;
   border-radius: 50%;
-  background: var(--hl-color);
+  /* background: var(--hl-color); */
 }
 .logo img:hover {
   box-shadow: var(--shadow-color) 0 5px 5px;
